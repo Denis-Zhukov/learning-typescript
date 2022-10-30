@@ -1,0 +1,27 @@
+{
+  "name": "learning-typescript",
+  "version": "1.0.0",
+  "description": "Learning TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HachikoR/learning-typescript.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Hachiko <DenisZhukov.Hachiko@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HachikoR/learning-typescript/issues"
+  },
+  "homepage": "https://github.com/HachikoR/learning-typescript#readme",
+  "dependencies": {
+    "typescript": "^4.8.4"
+  }
+}
